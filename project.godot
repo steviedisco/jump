@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="Jump"
+run/main_scene="res://Scenes/play_field.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_height=720
+window/size/resizable=false
+window/size/viewport_width=1280
